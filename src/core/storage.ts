@@ -1,7 +1,6 @@
 import fs from "fs";
 import path from "path";
 
-// ⭐ 永远指向“项目根目录”
 const dataPath = path.join(process.cwd(), "src/data/energy.json");
 
 export function readEnergy(): number {

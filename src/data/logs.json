@@ -1,0 +1,42 @@
+[
+  {
+    "type": "note_add",
+    "detail": "log测试",
+    "time": "2026-07-05T14:58:47.649Z"
+  },
+  {
+    "type": "energy_add",
+    "detail": "added undefined energy",
+    "time": "2026-07-05T15:03:32.797Z"
+  },
+  {
+    "type": "energy_add",
+    "detail": "added undefined energy",
+    "time": "2026-07-05T15:03:42.748Z"
+  },
+  {
+    "type": "energy_add",
+    "detail": "added -10 energy",
+    "time": "2026-07-05T15:04:10.791Z"
+  },
+  {
+    "type": "energy_add",
+    "detail": "added -10 energy",
+    "time": "2026-07-05T15:04:11.808Z"
+  },
+  {
+    "type": "document_analyze",
+    "detail": "analyzed text with 56 characters",
+    "time": "2026-07-06T12:09:50.505Z"
+  },
+  {
+    "type": "document_analyze",
+    "detail": "analyzed text with 56 characters",
+    "time": "2026-07-06T12:11:53.905Z"
+  },
+  {
+    "type": "document_analyze",
+    "detail": "analyzed text with 56 characters",
+    "time": "2026-07-06T12:14:25.424Z"
+  }
+]

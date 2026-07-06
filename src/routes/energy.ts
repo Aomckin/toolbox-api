@@ -1,5 +1,6 @@
 import express from "express";
 import { readEnergy, writeEnergy } from "../core/storage";
+import { writeLog } from "../core/logger";
 
 const router = express.Router();
 
@@ -18,10 +19,16 @@ router.post("/add", (req, res) => {
 
   writeEnergy(updated);
 
+  writeLog({
+  type: "energy_add",
+  detail: `added ${amount} energy`
+  });
+
   res.json({
     message: "energy updated",
     energy: updated
   });
 });
+
 
 export default router;
